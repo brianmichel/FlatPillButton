@@ -4,6 +4,11 @@ Flat Pill Button
 
 As I'm sure everyone is well versed in the awesomeness that is Letterpress the app, if you're not, go download it [here](https://itunes.apple.com/us/app/letterpress-word-game/id526619424?mt=8). Basically I fell in love with the super simple flat buttons and wanted to make something that people could use that was a little customizable. It looks pretty close in my opinion, but let me know if you have any problems.
 
+Usage
+----
+
+Since this is just a regular button, you only need to set the title color for `UIControlStateNormal` and `UIControlStateDisabled` and everything is taken care of for you by the button class.
+
 Screenshots
 -----
 
