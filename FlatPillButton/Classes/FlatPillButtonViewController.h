@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FlatPillButtonViewController.h
 //  FlatPillButton
 //
 //  Created by Brian Michel on 11/11/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface FlatPillButtonViewController : UITableViewController
 
 @end

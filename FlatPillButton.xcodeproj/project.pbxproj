@@ -16,9 +16,9 @@
 		72B81ED91650860500A5E536 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B81ED81650860500A5E536 /* Default.png */; };
 		72B81EDB1650860500A5E536 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B81EDA1650860500A5E536 /* Default@2x.png */; };
 		72B81EDD1650860500A5E536 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72B81EDC1650860500A5E536 /* Default-568h@2x.png */; };
-		72B81EE01650860500A5E536 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B81EDF1650860500A5E536 /* ViewController.m */; };
-		72B81EE31650860500A5E536 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B81EE11650860500A5E536 /* ViewController_iPhone.xib */; };
-		72B81EE61650860500A5E536 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72B81EE41650860500A5E536 /* ViewController_iPad.xib */; };
+		72B81EF11650866D00A5E536 /* FlatPillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B81EEE1650866D00A5E536 /* FlatPillButton.m */; };
+		72B81EF21650866D00A5E536 /* FlatPillButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B81EF01650866D00A5E536 /* FlatPillButtonCell.m */; };
+		72B81EF51650868800A5E536 /* FlatPillButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B81EF41650868800A5E536 /* FlatPillButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +35,12 @@
 		72B81ED81650860500A5E536 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		72B81EDA1650860500A5E536 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		72B81EDC1650860500A5E536 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		72B81EDE1650860500A5E536 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		72B81EDF1650860500A5E536 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		72B81EE21650860500A5E536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		72B81EE51650860500A5E536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		72B81EED1650866D00A5E536 /* FlatPillButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlatPillButton.h; path = Classes/FlatPillButton.h; sourceTree = "<group>"; };
+		72B81EEE1650866D00A5E536 /* FlatPillButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlatPillButton.m; path = Classes/FlatPillButton.m; sourceTree = "<group>"; };
+		72B81EEF1650866D00A5E536 /* FlatPillButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlatPillButtonCell.h; path = Classes/FlatPillButtonCell.h; sourceTree = "<group>"; };
+		72B81EF01650866D00A5E536 /* FlatPillButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlatPillButtonCell.m; path = Classes/FlatPillButtonCell.m; sourceTree = "<group>"; };
+		72B81EF31650868800A5E536 /* FlatPillButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlatPillButtonViewController.h; path = Classes/FlatPillButtonViewController.h; sourceTree = "<group>"; };
+		72B81EF41650868800A5E536 /* FlatPillButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlatPillButtonViewController.m; path = Classes/FlatPillButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +87,15 @@
 		72B81ECC1650860500A5E536 /* FlatPillButton */ = {
 			isa = PBXGroup;
 			children = (
+				72B81EED1650866D00A5E536 /* FlatPillButton.h */,
+				72B81EEE1650866D00A5E536 /* FlatPillButton.m */,
+				72B81EEF1650866D00A5E536 /* FlatPillButtonCell.h */,
+				72B81EF01650866D00A5E536 /* FlatPillButtonCell.m */,
 				72B81ED51650860500A5E536 /* AppDelegate.h */,
 				72B81ED61650860500A5E536 /* AppDelegate.m */,
-				72B81EDE1650860500A5E536 /* ViewController.h */,
-				72B81EDF1650860500A5E536 /* ViewController.m */,
-				72B81EE11650860500A5E536 /* ViewController_iPhone.xib */,
-				72B81EE41650860500A5E536 /* ViewController_iPad.xib */,
 				72B81ECD1650860500A5E536 /* Supporting Files */,
+				72B81EF31650868800A5E536 /* FlatPillButtonViewController.h */,
+				72B81EF41650868800A5E536 /* FlatPillButtonViewController.m */,
 			);
 			path = FlatPillButton;
 			sourceTree = "<group>";
@@ -165,8 +169,6 @@
 				72B81ED91650860500A5E536 /* Default.png in Resources */,
 				72B81EDB1650860500A5E536 /* Default@2x.png in Resources */,
 				72B81EDD1650860500A5E536 /* Default-568h@2x.png in Resources */,
-				72B81EE31650860500A5E536 /* ViewController_iPhone.xib in Resources */,
-				72B81EE61650860500A5E536 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +181,9 @@
 			files = (
 				72B81ED31650860500A5E536 /* main.m in Sources */,
 				72B81ED71650860500A5E536 /* AppDelegate.m in Sources */,
-				72B81EE01650860500A5E536 /* ViewController.m in Sources */,
+				72B81EF11650866D00A5E536 /* FlatPillButton.m in Sources */,
+				72B81EF21650866D00A5E536 /* FlatPillButtonCell.m in Sources */,
+				72B81EF51650868800A5E536 /* FlatPillButtonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,22 +196,6 @@
 				72B81ED01650860500A5E536 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		72B81EE11650860500A5E536 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72B81EE21650860500A5E536 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		72B81EE41650860500A5E536 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72B81EE51650860500A5E536 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
