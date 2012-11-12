@@ -46,8 +46,8 @@
   [super layoutSubviews];
   
   CGFloat buttonWidth = self.frame.size.width/2 - 3.0 * 4;
-  self.buttonOne.frame = CGRectMake(4, 0, buttonWidth, self.contentView.frame.size.height);
-  self.buttonTwo.frame = CGRectMake(CGRectGetMaxX(self.buttonOne.frame) + 4, 0, buttonWidth, self.contentView.frame.size.height);
+  self.buttonOne.frame = CGRectMake(4, 2, buttonWidth, self.contentView.frame.size.height - 2);
+  self.buttonTwo.frame = CGRectMake(CGRectGetMaxX(self.buttonOne.frame) + 4, 2, buttonWidth, self.contentView.frame.size.height - 2);
 }
 
 
