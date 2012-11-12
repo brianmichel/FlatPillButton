@@ -9,7 +9,7 @@
 #import "FlatPillButton.h"
 
 const CGFloat kFlatPillButtonBoldLineWidth = 3.0;
-const CGFloat kFlatPillButtonNormalLineWidth = 1.0;
+const CGFloat kFlatPillButtonNormalLineWidth = 2.0;
 
 @implementation FlatPillButton
 
@@ -62,7 +62,7 @@ const CGFloat kFlatPillButtonNormalLineWidth = 1.0;
   
   CGContextSetLineWidth(ctx, lineWidth);
   
-  UIBezierPath *outlinePath = [UIBezierPath bezierPathWithRoundedRect:CGRectInset(self.bounds, lineWidth + 1, lineWidth + 1) cornerRadius:self.bounds.size.height/2];
+  UIBezierPath *outlinePath = [UIBezierPath bezierPathWithRoundedRect:CGRectInset(self.bounds, lineWidth, lineWidth) cornerRadius:self.bounds.size.height/2];
  
   CGContextAddPath(ctx, outlinePath.CGPath);
   CGContextStrokePath(ctx);
@@ -71,8 +71,7 @@ const CGFloat kFlatPillButtonNormalLineWidth = 1.0;
   
   if (self.highlighted) {
     CGContextSaveGState(ctx);
-    int insetPadding = self.bold ? 4 : 3;
-    UIBezierPath *fillPath = [UIBezierPath bezierPathWithRoundedRect:CGRectInset(self.bounds, lineWidth + insetPadding, lineWidth + insetPadding) cornerRadius:self.bounds.size.height/2];
+    UIBezierPath *fillPath = [UIBezierPath bezierPathWithRoundedRect:CGRectInset(self.bounds, lineWidth * 2.5, lineWidth * 2.5) cornerRadius:self.bounds.size.height/2];
     
     CGContextAddPath(ctx, fillPath.CGPath);
     CGContextFillPath(ctx);
