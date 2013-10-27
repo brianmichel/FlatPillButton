@@ -16,6 +16,10 @@ Screenshots
 
 ![](http://f.cl.ly/items/3q2r123l2n2y0K2D333f/Screen%20Shot%202012-11-11%20at%208.36.56%20PM.png)
 
+License
+-----
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">FlatPillButton</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/brianmichel/flatpillbutton" property="cc:attributionName" rel="cc:attributionURL">Brian Michel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/brianmichel/flatpillbutton" rel="dct:source">https://github.com/brianmichel/flatpillbutton</a>.
+
 Contact
 ----
 Feel free to contact me if you have any questions or issues, or send me a tweet [@brianmichel](http://www.twitter.com/brianmichel). I've written a blog post regarding how I went about making this button [here](http://brianmichel.tumblr.com/post/35543576256/flatpillbutton-write-up) and would love a critique. Just go ahead and open an issue with the "Critique" label. Thanks!
